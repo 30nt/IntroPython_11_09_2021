@@ -155,3 +155,12 @@ while do_loop:
     count += 1
     if count >= 10:
         do_loop = False
+
+#######################################################
+count = 0
+
+while True:
+    print("This is while loop", count)
+    count += 1
+    if count >= 10:
+        break
